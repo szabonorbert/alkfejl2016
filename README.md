@@ -34,7 +34,7 @@ Ha a szervezett bűnözésnek készítenénk todo rendszert, természetesen nem 
 ![Use-case](https://github.com/szabonorbert/alkfejl2016/blob/master/usecase.png)
 
 ##Adatmodellek
-Hamarosan.
+![Data](https://github.com/szabonorbert/alkfejl2016/blob/master/data.png)
 
 ##Szerepkörök
 Hamarosan.
