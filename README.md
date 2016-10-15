@@ -3,36 +3,35 @@
 Ha a szervezett bűnözésnek készítenénk todo rendszert, természetesen nem így csinálnánk. Ez inkább szimuláció.
 
 ##Funkcionális követelmények
-<p><i>Vendégként:</i>
-<ul>
-<li> szeretném látni az aktuális feladatokat felsorolva (rejtett szöveggel) és azok nehézségét </li>
-<li> szeretnék regisztrálni, hogy családtagként én is végezhessek feladatot </li>
-</ul></p>
+*Vendégként:*
 
-<p><i>Felhasználóként:</i>
-<ul>
-<li> szeretnék belépni az oldalra </li> 
-<li> szeretném elolvasni a feladat címét, pontos leírását és nehézségét </li> 
-<li> szeretném elvégezni a feladatot </li> 
-<li> szeretném a profiladataimat szerkeszteni </li>
-<li> szeretnék kijelentkezni </li>
-</ul></p>
++ szeretném látni az aktuális feladatokat felsorolva (rejtett szöveggel) és azok nehézségét
++ szeretnék regisztrálni, hogy családtagként én is végezhessek feladatot
 
-<p><i>Családfőként:</i>
-<ul>
-<li> szeretnék új feladatot kiírni </li> 
-<li> szeretném látni az összes feladatról, hogy ki és mikor végezte el </li>
-</ul></p>
+
+*Felhasználóként:*
+
++ szeretnék belépni az oldalra
++ szeretném elolvasni a feladat címét, pontos leírását és nehézségét
++ szeretném elvégezni a feladatot
++ szeretném a profiladataimat szerkeszteni
++ szeretnék kijelentkezni
+
+
+*Családfőként:*
++ szeretnék új feladatot kiírni
++ szeretném látni az összes feladatról, hogy ki és mikor végezte el
+
 
 ##Nem funkcionális követelmények
-<ul>
-<li> Felhasználóbarát </li>
-<li> Biztonságos </li>
-<li> Gyors hozzáférés </li> 
-</ul>
+
++ Felhasználóbarát
++ Biztonságos
++ Gyors hozzáférés
+
 
 ##Use-case
-Hamarosan.
+![Use-case](https://github.com/szabonorbert/alkfejl2016/blob/master/usecase.png)
 
 ##Adatmodellek
 Hamarosan.
