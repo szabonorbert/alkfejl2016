@@ -5,7 +5,7 @@ Ha a szervezett bűnözésnek készítenénk todo rendszert, természetesen nem 
 ##Funkcionális követelmények
 <p><i>Vendégként:</i>
 <ul>
-<li> szeretném látni az aktuális feladatok számát és azok nehézségét (pontos szöveg nélkül) </li>
+<li> szeretném látni az aktuális feladatokat felsorolva (rejtett szöveggel) és azok nehézségét </li>
 <li> szeretnék regisztrálni, hogy családtagként én is végezhessek feladatot </li>
 </ul></p>
 
