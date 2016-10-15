@@ -67,7 +67,17 @@ Ha a szervezett bűnözésnek készítenénk todo rendszert, természetesen nem 
 Hamarosan.
 
 ##Végpontok
-Hamarosan.
++ **GET/:** feladatlista megtekintése
++ **POST/:** feladat elvégzésének beküldése
++ **GET/reg:** regisztrációs oldal megtekintése
++ **POST/reg:** regisztrációs kérés küldése
++ **GET/login:** bejelentkező oldal
++ **POST/login:** bejelentkezési adatok küldése
++ **GET/profile:** profil megtekintése
++ **POST/profile:** profil frissítése
++ **GET/add:** új feladat hozzáadásának űrlapja
++ **POST/add:** új feladat beküldése
++ **GET/history:** elvégzett feladatok listája
 
 ##Vázlatok
 Hamarosan.
