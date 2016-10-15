@@ -2,7 +2,7 @@
 
 Ha a szervezett bűnözésnek készítenénk todo rendszert, természetesen nem így csinálnánk. Ez inkább szimuláció.
 
-<b>Funkcionális követelmények:</b>
+##Funkcionális követelmények
 <p><i>Vendégként:</i>
 <ul>
 <li> szeretném látni az aktuális feladatok számát és azok nehézségét (pontos szöveg nélkül) </li>
@@ -24,3 +24,30 @@ Ha a szervezett bűnözésnek készítenénk todo rendszert, természetesen nem 
 <li> szeretném látni az összes feladatról, hogy ki és mikor végezte el </li>
 </ul></p>
 
+##Nem funkcionális követelmények
+<ul>
+<li> Felhasználóbarát </li>
+<li> Biztonságos </li>
+<li> Gyors hozzáférés </li> 
+</ul>
+
+##Use-case
+Hamarosan.
+
+##Adatmodellek
+Hamarosan.
+
+##Szerepkörök
+Hamarosan.
+
+##Oldaltérkép
+Hamarosan.
+
+##Folyamatok
+Hamarosan.
+
+##Végpontok
+Hamarosan.
+
+##Vázlatok
+Hamarosan.
