@@ -64,11 +64,11 @@ Ha a szervezett bűnözésnek készítenénk todo rendszert, természetesen nem 
 + Kijelentkezés
 
 ##Rettenetesen bonyolult folyamatok
-Új feladat hozzáadása
-![New task](https://github.com/szabonorbert/alkfejl2016/blob/master/newtask.png)
-Feladat elvégzése
-![Done task](https://github.com/szabonorbert/alkfejl2016/blob/master/donetask.png)
-Felhasználó bejelentkezése
+Új feladat hozzáadása  
+![New task](https://github.com/szabonorbert/alkfejl2016/blob/master/newtask.png)  
+Feladat elvégzése  
+![Done task](https://github.com/szabonorbert/alkfejl2016/blob/master/donetask.png)  
+Felhasználó bejelentkezése  
 ![User login](https://github.com/szabonorbert/alkfejl2016/blob/master/user.png)
 
 ##Végpontok
