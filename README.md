@@ -37,10 +37,31 @@ Ha a szervezett bűnözésnek készítenénk todo rendszert, természetesen nem 
 ![Data](https://github.com/szabonorbert/alkfejl2016/blob/master/data.png)
 
 ##Szerepkörök
-Hamarosan.
++ *Vendég:* megnézheti az aktuális feladatok listáját és a feladatokhoz tartozó nehézséget (de nem láthatja a feladat címét és leírását, ez "titkos"). Ezenkívül regésztrálhat a családba, hogy ő is hozzájárulhasson a "cég" tevékenységéhez.
++ *Családtag:* láthatja az aktuális teljes feladatlistát, azaz címeket, leírásokat és nehézségeket. Feladatot jelölhet elvégzettnek.
++ *Családfő (Don):* Ha egy családtag családfő is, akkor a családtag számára elérhető funckiókon kívül adhat hozzá feladatot és láthatja az elvégzett feladatok listáját is, kiegészítve az elvégzés dátumával és a végrehajtó azonosítójával.
 
 ##Oldaltérkép
-Hamarosan.
+**Publikus:**
++ Feladatlista (csak nehézség)
++ Bejelentkezés
++ Regisztráció
+
+**Családtag:**
++ Feladatlista (teljes)
+  + Feladat elvégzése
++ Profiladatok
+  + Profil szerkesztése
++ Kijelentkezés
+
+**Családfő:**
++ Feladatlista (teljes)
+  + Feladat elvégzése
+  + Feladat hozzáadása
++ Elvégzett feladatok listája
++ Profiladatok
+  + Profil szerkesztése
++ Kijelentkezés
 
 ##Folyamatok
 Hamarosan.
