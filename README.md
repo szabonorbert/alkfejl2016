@@ -85,7 +85,7 @@ Felhasználó bejelentkezése
 + **GET/history:** elvégzett feladatok listája
 
 ##Vázlatok
-Főoldal, feladatlista
+Főoldal, feladatlista  
 ![Tasklist](https://github.com/szabonorbert/alkfejl2016/blob/master/view1.png)  
 Feladat hozzáadása  
 ![Add task](https://github.com/szabonorbert/alkfejl2016/blob/master/view2.png)  
