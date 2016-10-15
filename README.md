@@ -1,1 +1,4 @@
-# alkfejl2016
+# Munkaidőnyilvántartás
+
+Feladat: 
+Munkaidő nyilvántartás
