@@ -29,10 +29,10 @@ Ha a szervezett bűnözésnek készítenénk todo rendszert, természetesen nem 
 
 
 ##Use-case
-![Use-case](usecase.png)
+![Use-case](readme_img/usecase.png)
 
 ##Adatmodellek
-![Data](https://github.com/szabonorbert/alkfejl2016/blob/master/data.png)
+![Data](readme_img/data.png)
 
 ##Szerepkörök
 + *Vendég:* megnézheti az aktuális feladatok listáját és a feladatokhoz tartozó nehézséget (de nem láthatja a feladat címét és leírását, ez "titkos"). Ezenkívül regésztrálhat a családba, hogy ő is hozzájárulhasson a "cég" tevékenységéhez.
@@ -56,11 +56,11 @@ Ha a szervezett bűnözésnek készítenénk todo rendszert, természetesen nem 
 
 ##Rettenetesen bonyolult folyamatok
 Új feladat hozzáadása  
-![New task](https://github.com/szabonorbert/alkfejl2016/blob/master/newtask.png)  
+![New task](readme_img/newtask.png)  
 Feladat elvégzése  
-![Done task](https://github.com/szabonorbert/alkfejl2016/blob/master/donetask.png)  
+![Done task](readme_img/donetask.png)  
 Felhasználó bejelentkezése  
-![User login](https://github.com/szabonorbert/alkfejl2016/blob/master/user.png)
+![User login](readme_img/user.png)
 
 ##Végpontok
 + **GET/:** feladatlista megtekintése
@@ -80,8 +80,8 @@ Felhasználó bejelentkezése
 
 ##Vázlatok
 Jelszómódosítás
-![Tasklist](https://github.com/szabonorbert/alkfejl2016/blob/master/view1.png)  
+![Tasklist](readme_img/view1.png)  
 Feladat hozzáadása  
-![Add task](https://github.com/szabonorbert/alkfejl2016/blob/master/view2.png)  
+![Add task](readme_img/view2.png)  
 Elvégzett feladatok listája
-![Edit profile](https://github.com/szabonorbert/alkfejl2016/blob/master/view3.png)
+![Edit profile](readme_img/view3.png)
