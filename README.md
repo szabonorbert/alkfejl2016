@@ -29,7 +29,7 @@ Ha a szervezett bűnözésnek készítenénk todo rendszert, természetesen nem 
 
 
 ##Use-case
-![Use-case](https://github.com/szabonorbert/alkfejl2016/blob/master/usecase.png)
+![Use-case](usecase.png)
 
 ##Adatmodellek
 ![Data](https://github.com/szabonorbert/alkfejl2016/blob/master/data.png)
