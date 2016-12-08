@@ -1,12 +1,12 @@
-# Mafia todo
+# Mafia startup todo
 
 Ha a szervezett bűnözésnek készítenénk todo rendszert, természetesen nem így csinálnánk. Ez inkább szimuláció.
 
 ##Funkcionális követelmények
 *Vendégként:*
 
-+ szeretném látni az aktuális feladatokat felsorolva (rejtett szöveggel) és azok nehézségét
-+ szeretnék regisztrálni, hogy családtagként én is végezhessek feladatot
++ szeretném látni az aktuális feladatok listáját (rejtett szöveggel)
++ szeretnék regisztrálni, hogy családtagként én is elvégezhessek feladatokat
 
 
 *Felhasználóként:*
@@ -14,13 +14,11 @@ Ha a szervezett bűnözésnek készítenénk todo rendszert, természetesen nem 
 + szeretnék belépni az oldalra
 + szeretném elolvasni a feladat címét, pontos leírását és nehézségét
 + szeretném elvégezni a feladatot
-+ szeretném a profiladataimat szerkeszteni
++ szeretném a jelszavamat megváltoztatni
++ szeretnék feladatot hozzáadni
++ szretnék feladatot törölni (csak sajátot)
++ szeretném megnézni az elvégzett feladatok listáját
 + szeretnék kijelentkezni
-
-
-*Családfőként:*
-+ szeretnék új feladatot kiírni
-+ szeretném látni az összes feladatról, hogy ki és mikor végezte el
 
 
 ##Nem funkcionális követelmények
@@ -31,63 +29,59 @@ Ha a szervezett bűnözésnek készítenénk todo rendszert, természetesen nem 
 
 
 ##Use-case
-![Use-case](https://github.com/szabonorbert/alkfejl2016/blob/master/usecase.png)
+![Use-case](https://github.com/szabonorbert/alkfejl2016/blob/master/readme_img/usecase.png)
 
 ##Adatmodellek
-![Data](https://github.com/szabonorbert/alkfejl2016/blob/master/data.png)
+![Data](https://github.com/szabonorbert/alkfejl2016/blob/master/readme_img/data.png)
 
 ##Szerepkörök
 + *Vendég:* megnézheti az aktuális feladatok listáját és a feladatokhoz tartozó nehézséget (de nem láthatja a feladat címét és leírását, ez "titkos"). Ezenkívül regésztrálhat a családba, hogy ő is hozzájárulhasson a "cég" tevékenységéhez.
-+ *Családtag:* láthatja az aktuális teljes feladatlistát, azaz címeket, leírásokat és nehézségeket. Feladatot jelölhet elvégzettnek.
-+ *Családfő (Don):* Ha egy családtag családfő is, akkor a családtag számára elérhető funckiókon kívül adhat hozzá feladatot és láthatja az elvégzett feladatok listáját is, kiegészítve az elvégzés dátumával és a végrehajtó azonosítójával.
++ *Családtag:* láthatja az aktuális teljes feladatlistát, azaz címeket, leírásokat és nehézségeket. Feladatot jelölhet elvégzettnek, új feladatot adhat hozzá, saját maga által hozzáadott feladatokat törölhet, megnézheti az eddig elvégzett feladatok listáját.
+
 
 ##Oldaltérkép
 **Publikus:**
-+ Feladatlista (csak nehézség)
++ Feladatlista (hiányzó leírás)
 + Bejelentkezés
 + Regisztráció
 
 **Családtag:**
 + Feladatlista (teljes)
   + Feladat elvégzése
-+ Profiladatok
-  + Profil szerkesztése
-+ Kijelentkezés
-
-**Családfő:**
-+ Feladatlista (teljes)
-  + Feladat elvégzése
   + Feladat hozzáadása
-+ Elvégzett feladatok listája
+  + Feladat törlése (csak saját)
 + Profiladatok
-  + Profil szerkesztése
+  + Jelszómódosítás
 + Kijelentkezés
 
 ##Rettenetesen bonyolult folyamatok
 Új feladat hozzáadása  
-![New task](https://github.com/szabonorbert/alkfejl2016/blob/master/newtask.png)  
+![New task](https://github.com/szabonorbert/alkfejl2016/blob/master/readme_img/newtask.png)  
 Feladat elvégzése  
-![Done task](https://github.com/szabonorbert/alkfejl2016/blob/master/donetask.png)  
+![Done task](https://github.com/szabonorbert/alkfejl2016/blob/master/readme_img/donetask.png)  
 Felhasználó bejelentkezése  
-![User login](https://github.com/szabonorbert/alkfejl2016/blob/master/user.png)
+![User login](https://github.com/szabonorbert/alkfejl2016/blob/master/readme_img/user.png)
 
 ##Végpontok
 + **GET/:** feladatlista megtekintése
-+ **POST/:** feladat elvégzésének beküldése
 + **GET/reg:** regisztrációs oldal megtekintése
 + **POST/reg:** regisztrációs kérés küldése
-+ **GET/login:** bejelentkező oldal
++ **GET/login:** bejelentkező oldal megtekintésée
 + **POST/login:** bejelentkezési adatok küldése
-+ **GET/profile:** profil megtekintése
-+ **POST/profile:** profil frissítése
-+ **GET/add:** új feladat hozzáadásának űrlapja
-+ **POST/add:** új feladat beküldése
-+ **GET/history:** elvégzett feladatok listája
++ **GET/logout:** kijelentkezés kérése
++ **GET/do/:id:** feladatelvégzés jelentésének kérése
++ **GET/del/:id:** feladattörlés kérése
++ **GET/history:** elvégzett feladatok listájának megtekintése
++ **GET/password:** jelszómódosító oldal megtekintése
++ **POST/password:** jelszófrissítés küldése
++ **GET/add:** feladathozzáadás oldalának megtekintése
++ **POST/add:** feladathozzáadás kérésének küldés
+
 
 ##Vázlatok
-Főoldal, feladatlista  
-![Tasklist](https://github.com/szabonorbert/alkfejl2016/blob/master/view1.png)  
+Jelszómódosítás
+![Tasklist](https://github.com/szabonorbert/alkfejl2016/blob/master/readme_img/view1.png)  
 Feladat hozzáadása  
-![Add task](https://github.com/szabonorbert/alkfejl2016/blob/master/view2.png)  
-Felhasználó profiljának szerkesztése  
-![Edit profile](https://github.com/szabonorbert/alkfejl2016/blob/master/view3.png)
+![Add task](https://github.com/szabonorbert/alkfejl2016/blob/master/readme_img/view2.png)  
+Elvégzett feladatok listája
+![Edit profile](https://github.com/szabonorbert/alkfejl2016/blob/master/readme_img/view3.png)
